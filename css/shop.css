@@ -1,9 +1,15 @@
-.myCarousel {
-	size: 80px;
+.shopimage {
+	width: 20%;
+	height: 20%;
 }
+
+.myCarousel {
+	display: inline-flex;
+}
+
 .myCarousel2 {
-	size: 80px;
+	display: inline-flex;
 }
 .myCarousel3 {
-	size: 80px;
+	display: inline-flex;
 }
