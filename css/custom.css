@@ -62,3 +62,8 @@ span {
 .sidetext {
 	size: 200px;
 }
+.nav-pills {
+	text-decoration: none;
+	background-color: none;
+	color: black;
+}
