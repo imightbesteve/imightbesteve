@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Disarray Clothing</title>
+	  <meta name="viewport" content="initial-scale=1.0, width=device-width, minimum-scale=1.0, maximum-scale=2.0">
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+  <link rel="stylesheet" type="text/css" href="css/custom.css"/>
+
+  <link rel="stylesheet" type="text/css" href="css/checkout.css"/>
+
+  <link rel="shortcut icon" href="img/favicon.ico"/>
+</head>
+<body>
+	<ul class="nav nav-tabs nav-justified">
+      <li role="presentation"><a href="lookbook.html">Lookbook</a></li>
+      <li role="presentation" class="active"><a href="#shop">Shop</a></li>
+      <li role="presentation"><a href="contact.html">Contact</a></li>
+      <li role="presentation"><a href="checkout.html">Checkout</a></li>
+    </ul>
+  <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/simplecart.min.js"></script>
+  <script>
+		simpleCart({
+			checkout: { 
+				type: "PayPal" , 
+				email: "you@yours.com" 
+			}
+		});	
+	</script>
+</body>
+</html>

@@ -16,13 +16,13 @@
 
 </head>
 <body>
-    <h1>DISARRAY</h1>
-    <ul class="nav nav-pills">
+    <ul class="nav nav-tabs nav-justified">
       <li role="presentation"><a href="lookbook.html">Lookbook</a></li>
       <li role="presentation" class="active"><a href="#shop">Shop</a></li>
       <li role="presentation"><a href="contact.html">Contact</a></li>
       <li role="presentation"><a href="checkout.html">Checkout</a></li>
     </ul>
+    
   <div class="container">
     <div class="row">
       <div class="col-md-4">
@@ -37,16 +37,26 @@
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
-          <div class="item active shopimage">
+          <div class="item active shopimage simpleCart_shelfItem">
             <img src="img/7.jpg" alt="SL Boot">
           </div>
 
           <div class="item shopimage">
             <img src="img/8.jpg" alt="SL Boot">
           </div>
-          <h2 style="font-family: Camp;">Saint Laurent Boots</h2>
-          <h3 style="font-style: italic; font-family: Camp;"> $1400 </h3>
         </div>
+        <h2 style="font-family: Camp;">Saint Laurent Boots</h2>
+          <h3 style="font-style: italic; font-family: Camp;"> $1400 </h3>
+        <select class="item_size">
+          <option value="Small"> Small </option>
+          <option value="Medium"> Medium </option>
+          <option value="Large"> Large </option>
+      </select>
+      <input type="text" value="1" class="item_Quantity">
+      <span class="item_price">$35.99</span>
+    <a class="item_add" href="javascript:;"> Add to Cart </a>
+
+
 
         <!-- Left and right controls -->
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -130,7 +140,9 @@
     </div>
   </div>
   <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
-  <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/shop.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/simplecart.min.js"></script>
+   <script type="text/javascript" src="js/cart.js"></script>
 </body>
 </html>

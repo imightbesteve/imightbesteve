@@ -5,8 +5,5 @@ $(document).ready(function() {
 	    $(".entry-button").delay(380).fadeOut();
 	    $(".after").delay(800).fadeIn();
 	  });
-	$('.carousel').carousel({
-	   interval: 0
-	})
 });
 
