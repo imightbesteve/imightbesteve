@@ -17,3 +17,25 @@ h1 {
 	top: 0;
 }
 
+.image {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 0;
+	box-shadow: 10px 10px 15px black;
+}
+.image img {
+	width: 100%;
+}
+.text {
+	font-size: 50px;
+	font-family: Camp;
+	color: #8E9A9E;
+	margin-top: 200px;
+}
+a {
+	text-decoration: none;
+}
+hr {
+	 border: 1px solid #000;
+	 width: 100%;
+}
