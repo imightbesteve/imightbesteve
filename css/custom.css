@@ -1,8 +1,9 @@
 h1 {
 	font-family: Camp;
-	position: fixed;
-	left: 45%
+	position: absolute;
+	left: 45%;
 	top: 0;
+	color: #8E9A9E;
 }
 
 
@@ -43,7 +44,24 @@ span {
 .after {
 	display: none;
 }
-
+hr {
+	 border: 1px solid #000;
+	 width: 100%;
+}
+.nav {
+	margin-top: 80px;
+}
+.nav-tabs a:hover {
+    color: Black;
+    border-radius: 0px;
+}
+.nav-tabs li{
+	color: Black;
+}
+.nav-tabs {
+    color: Grey;
+    border-radius: 0px;
+}
 
 .entry-button {
 	z-index: 3;
@@ -60,35 +78,42 @@ span {
 .shop {
 	size: 20%;
 }
-.images {
-	width: 20%;
-	height: 20%;
-
-}
-.image1 {
+.image1 img {
+	width: 100%;
 	display: inline-grid;
 	box-shadow: 10px 10px 10px grey;
 }
-.sidetext {
-	position: absolute;
-    top: 200px;
-    left: 50%;
+.text {
 	font-size: 50px;
 }
 .text2 {
-	position: absolute;
-	left: 30%;
-	font-size: 50px;
-	margin-bottom: 50px;
-	display: block;
+	font-size: 50px
+	margin-left: 20px;
 }
 .image2 {
 	margin-top: 50px;
-	width: 50%;
-	height: 50%;
+	margin-bottom: 50px;
 	box-shadow: 10px 10px 15px black;
 }
-hr {
-	 border: .5px solid #000;
-	 width: 100%;
+.image2 img {
+	width: 100%;
+}
+.text3 {
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+.image4 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	box-shadow: 10px 10px 15px black;
+}
+.image4 img {
+	width: 100%;
+}
+.sincere {
+	margin-top: 250px;
+	font-size: 50px;
+}
+.paddingclass {
+	padding: 0;
 }
